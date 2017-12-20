@@ -30,18 +30,20 @@
                     return technology.title
                 })
 
-                return result.join(',')
+                return result.join(', ')
             }
         },
 
         mounted() {
             const params = {
                 type_slug: 'projects',
+                metafield_key: 'open_source',
+                metafield_value: 'No',
                 limit: 50,
                 skip: 0,
                 sort: 'created_at'
             }
-            Cosmic.getObjectsByType(cosmicJsConfig, params, (error, response) => {
+            Cosmic.getObjectsBySearch(cosmicJsConfig, params, (error, response) => {
                 this.projects = response.objects.all
             })
         }
