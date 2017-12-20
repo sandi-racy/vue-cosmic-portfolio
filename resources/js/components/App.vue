@@ -54,9 +54,6 @@
 <style lang="stylus">
     @import url('https://fonts.googleapis.com/css?family=Open+Sans')
 
-    *
-        box-sizing: border-box
-
     .html
         border: 10px solid #494C4E
         font-family: 'Open Sans'
