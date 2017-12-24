@@ -6,6 +6,7 @@
   "author": "Sandi Rosyandi <ndi_racy@rocketmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "webpack",
     "start": "node app.js"
   },
   "dependencies": {
