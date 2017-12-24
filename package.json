@@ -6,7 +6,7 @@
   "author": "Sandi Rosyandi <ndi_racy@rocketmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "http-server -a localhost -p 8000"
+    "start": "http-server -p 80"
   },
   "dependencies": {
     "babel-core": "^6.24.1",
