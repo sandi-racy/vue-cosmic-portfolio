@@ -6,7 +6,7 @@
   "author": "Sandi Rosyandi <ndi_racy@rocketmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --host 0.0.0.0 --port 80"
   },
   "dependencies": {
     "babel-core": "^6.24.1",
