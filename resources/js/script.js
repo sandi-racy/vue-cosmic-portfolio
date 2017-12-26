@@ -3,13 +3,6 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-window.cosmicJsConfig = {
-  	bucket: {
-    	slug: process.env.COSMIC_BUCKET,
-        read_key: process.env.COSMIC_READ_KEY
-  	}
-}
-
 import App from './components/App.vue'
 import Home from './components/Home.vue'
 import Technologies from './components/Technologies.vue'
