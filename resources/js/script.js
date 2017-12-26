@@ -5,7 +5,8 @@ Vue.use(VueRouter)
 
 window.cosmicJsConfig = {
   	bucket: {
-    	slug: process.env.COSMIC_BUCKET
+    	slug: process.env.COSMIC_BUCKET,
+        read_key: process.env.COSMIC_READ_KEY
   	}
 }
 
